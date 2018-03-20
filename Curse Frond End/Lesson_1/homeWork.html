@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Space shop</title>
+</head>
+
+<body>
+    <h2>
+        Space shop
+    </h2>
+    <p>
+        space shop > T-shirt > spaceX
+    </p>
+    <p>
+        You have selected T-shirt with the "falcon heavy"rocket. Pleasae fill out the form below in order to customize your T-shirt.
+        <br> Keep in mind that your order will arrive within 2 weeks!
+    </p>
+    <h2>
+        T-shirt information:
+    </h2>
+    <form>
+        <div id="dropDownSIze">
+            <label for="Size">Size:</label>
+            <select name="Size">
+                <option value="XS">XS</option>
+                <option value="XS">S</option>
+                <option value="XS">M</option>
+                <option value="XS">L</option>
+            </select>
+        </div>
+        <br>
+        <div id="dropDownColor">
+            <label for="Color">Color:</label>
+            <select name="Color">
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="Yellow">Yellow</option>
+            </select>
+        </div>
+        <br>
+        <div id="checkBoxVariation">
+            <label for="gender">Variation</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </div>
+        <h2>Delivery information:</h2>
+        <div id="dropDownCity">
+            <label for="City">City:</label>
+            <select name="City">
+                <option value="Sofia">Sofia</option>
+                <option value="Pleven">Pleven</option>
+                <option value="Varna">Varna</option>
+                <option value="Burgas">Burgas</option>
+            </select>
+        </div>
+        <br>
+        <div id="adress">
+            <label for="adress">Adress</label>
+            <textarea name="adress" cols="20" rows="2"></textarea>
+        </div>
+        <br>
+        <div id="person">
+            <label for="person">Person to receive the package:</labe>
+                <input type="text" name="person">
+        </div>
+        <br>
+        <button type="button">Go Back</button>
+        <button type="button">Place Order</button>
+    </form>
+</body>
+
+</html>

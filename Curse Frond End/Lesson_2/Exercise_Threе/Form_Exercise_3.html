@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <heading>
+        <h2>Please select fill the form</h2>
+        <h3>Creating new article</h3>
+    </heading>
+    <form action="serverSimulation.html" method="GET">
+        <div class="articleCreatorDiv">
+            <label for="articleCreator">Article by:</label>
+            <input type="text" name="articleCreator">
+        </div>
+        <br>
+        <div class="articleTitleDiv">
+            <label for="articleTitle">Article title:</label>
+            <input type="text" name="articleTitle">
+        </div>
+        <br>
+        <div class="mainPictureDiv">
+            <label for="mainPicture">Select Picture:</label>
+            <input type="file" name="mainPicture">
+        </div>
+        <br>
+        <div class="articleBodyDiv">
+            <label for="articleBody">Article Body:</label>
+            <textarea type="textarea" name="articleBody"></textarea>
+        </div>
+        <br>
+        <div class="imagePositionDiv">
+            <p>Iamage Position</p>
+            Left<input type="radio" name="imagePosition" value="Left"><br>
+            Right<input type="radio" name="imagePosition" value="Right"><br>
+        </div>
+        <br>
+        <div class="checkBoxDiv">
+            Show date<input type="checkbox" name="hasDate" value="Show date"><br>
+            Use Tow columns:<input type="checkbox" name="useTwoColumns" value="Use Tow columns"><br>
+        </div>
+        <br>
+        <button type="submit" value="Submit Query">Submit Query</button>
+    </form>
+</body>
+
+</html>
